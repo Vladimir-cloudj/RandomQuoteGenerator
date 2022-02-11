@@ -15,6 +15,27 @@ body{
 	top: 50%;
 	left: 50%;
 }
+.wrapper h4{
+	color: #fdd8d8;
+	font-size: 18px;
+	background-color: #2a8d43;
+	width: 290px;
+	height: 30px;
+	border-radius: 10px;
+	/* margin: 10px 10px 0 0; */
+	padding: 20px 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+#color{
+	color: #fdd8d8;
+	font-size: 18px;
+	background-color: #24a845;
+	padding: 10px 10px;
+	box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+	border-radius: 10px;
+}
 .container{
 	width: 100%;
 	background-color: #24a845;
@@ -57,5 +78,7 @@ body{
 	cursor: pointer;
 }
 .container button:hover{
+
 	box-shadow: 0 10px 10px rgba(87, 11, 16, 0.5);
+	transition: all 0.5s ease-in;
 }
