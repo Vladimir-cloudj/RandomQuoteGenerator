@@ -12,7 +12,7 @@ body{
 	/* border: 1px solid #ffffff; */
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 50%;
+	top: 42%;
 	left: 50%;
 }
 .wrapper h4{
@@ -21,7 +21,7 @@ body{
 	background-color: #2a8d43;
 	width: 290px;
 	height: 30px;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	/* margin: 10px 10px 0 0; */
 	padding: 20px 10px;
 	display: flex;
@@ -34,15 +34,15 @@ body{
 	background-color: #24a845;
 	padding: 10px 10px;
 	box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 .container{
 	width: 100%;
 	background-color: #24a845;
-	padding: 35px 40px;
+	padding: 15px 25px;
 	box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
 	position: relative;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	text-align: center;
 }
 /* .container:after{
@@ -63,7 +63,7 @@ body{
 }
 .container h3{
 	color: #ffffff;
-	margin: 20px 0 60px 0;
+	margin: 15px 0 20px 0;
 	font-weight: 600;
 	text-transform: capitalize;
 }
@@ -81,4 +81,54 @@ body{
 
 	box-shadow: 0 10px 10px rgba(87, 11, 16, 0.5);
 	transition: all 0.5s ease-in;
+}
+
+
+.footer {
+	background-color: rgb(227 226 210);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 15px 5px 15px 5px;
+	position: absolute;
+	width: 100%;
+	transform: translate(0%, 0%);
+	top: 79%;
+	left: 0%;
+}
+
+.footer__leftside {
+  display: flex;
+  margin-left: 5px;
+}
+
+.footer__year {
+  margin-left: 20px;
+}
+
+.footer__github-link {
+	color: #24334e;
+  margin-left: 20px;
+  transition: 0.3s ease-out;
+}
+
+.footer__github-link:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+}
+
+
+.footer__middleside {
+  margin-left: 19px;
+}
+
+.footer__rsschool-link {
+	margin-right: 20px;
+	color: #24334e;
+  transition: 0.3s ease-out;
+}
+
+.footer__rsschool-link:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }

@@ -39,6 +39,16 @@ let getQuote = () => {
 		})
 		.catch((err) => console.log(err) );
 };
+
+async function randomQuote() {
+	const res = await fetch(url)
+	const date = await res.json()
+	console.log(date.content);
+	console.log(date.author);
+}
+randomQuote()
+
+
 window.addEventListener('load', getQuote);
 btn.addEventListener('click', getQuote);
 btn.addEventListener('click', madeColors);
